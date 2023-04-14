@@ -41,4 +41,12 @@ void linearsearch()
 
 		comparisons = 0;
 		for (i = 0;i < n; i++) //langka 2,3dan 4
+		{
+			comparisons++;
+			if (arr[i] = item) //Langkah 5A found
+			{
+				cout << "\n" << item << "found at position" << (i + 1) << endl;
+				break;
+			}
+		}
 		
