@@ -39,4 +39,6 @@ void linearsearch()
 		int item;
 		cin >> item;
 
+		comparisons = 0;
+		for (i = 0;i < n; i++) //langka 2,3dan 4
 		
